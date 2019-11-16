@@ -35,7 +35,7 @@
     margin: 10px;
        
 }
-span{
+.style-icon{
     text-align: center;
     position: absolute;
     top: 50%;
@@ -281,13 +281,253 @@ span{
 #for-square-grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: rgb(139, 130, 0);
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #for-square-grid .square{
-    width: 220px;
+    width: 270px;
     height: 250px;
-    background-color: darkblue;
+    background-color: rgb(235, 235, 235);
     margin: auto;
+    position: relative;
+}
+#for-square-grid i{
+    background-color: rgb(255, 189, 66);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: -35px;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: 0 auto;
+}
+
+#for-square-grid .middle-text{
+    text-align: center;
+    margin-top:90px;  
+}
+.underline-text{
+    text-decoration: underline;
+    color: rgb(1, 153, 1);
+}
+
+
+                                        /* OUR PORTFOLIO */
+
+
+#our-portfolio{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.9;
+    
+}                                      
+
+.white-color{
+    color: white;
+}
+
+#for-small-squares-grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    margin-top:30px;
+    padding: 0px 80px;
+}
+
+#for-small-squares-grid .small-squares{
+    width: 0px;
+    height: 70px;
+    border: 2px solid black;
+    margin:auto;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+#for-small-squares-grid .small-squares img{
+    height: 65px;
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(179, 173, 173);
+    margin-bottom: 40px;
+}
+#for-small-squares-grid .small-squares h4{
+    width: 150px;
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.silver-color{
+    color: grey;
+}
+
+
+
+                                        /* OUR PROCESS */
+
+#our-process{
+    width: 100%;
+    height: 300px;
+    background-image: url(new.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+                                        /* PEOPLE ABOUT US */
+    
+#people-about-us{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(243, 243, 243);
+} 
+
+#rectangle-grid{
+    
+    display: grid;
+    grid-template-columns:auto auto;
+    margin-top:20px;
+    padding:0 70px
+}
+
+#rectangle-grid .rectangle{
+    
+    width: 100%;
+    height: 120px;
+    margin: auto;
+}
+
+#rectangle-grid .rectangle .box1{
+    height: 75%;
+    width: 17%;
+    background-color:rgb(255, 254, 254);
+    float: left;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left:10px ;
+    position: relative;
+}
+
+#rectangle-grid .rectangle .box1 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(142, 168, 63);  
+}
+
+#rectangle-grid .rectangle .box2{
+    height: 80%;
+    width: 79%;
+    text-align: justify;
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+    
+}
+
+.left-border{
+    border-left: 1px solid rgb(209, 206, 206);
+}
+.right-border{
+    border-right: 1px solid rgb(209, 206, 206);
+}
+.top-border{
+    border-top: 1px solid rgb(209, 206, 206);
+}
+.bottom-border{
+    border-bottom: 1px solid rgb(209, 206, 206);
+}
+
+
+                                        /* OUR SKILLS */
+#our-skills{
+    width: 100%;
+    height:185px;
+    background-color: palegreen;
+}
+
+#our-skills img{
+    width: 100%;
+    height: 100%;
+}
+
+
+                                    /* START YOUR NEW PROJECT */
+
+
+#start-new-project{
+    background-color: rgb(142, 168, 63);
+    width: 100%;
+    height: 185px;
+    overflow: hidden;
+}
+
+#start-new-project .for-heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+
+}
+
+
+                                    /* OUR CONTACTS */
+
+#our-contacts{
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+#our-contacts .contacts{
+    margin-top: 20px ;
+    text-align: center;
+}
+
+#our-contacts .contacts i{
+    color:rgb(142, 168, 63) ;
+}
+
+#our-contacts .aligning p{
+    margin: 15px 100px;
+    display: inline-block;
+}
+
+#our-contacts #maps{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-word-color{
+    color: rgb(104, 133, 18);
 }

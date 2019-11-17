@@ -22,7 +22,7 @@
 /* ICONS */
 #icons{
     float: left;
-    width: 40%;
+    
 }
 .link{
     position: relative;
@@ -141,6 +141,10 @@
     display:inline-block;
     margin: 0px 10px;
     padding: 20px 10px;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 #nav ul li:hover{
@@ -313,7 +317,7 @@
 }
 .underline-text{
     text-decoration: underline;
-    color: rgb(1, 153, 1);
+    color: rgb(104, 133, 18);
 }
 
 
@@ -479,18 +483,52 @@
 
 #start-new-project .for-heading{
     width: 50%;
-    margin: 30px auto;
+    margin: 0px auto;
+    margin-top: 30px;
     text-align: center;
     color: white;
 
 }
+
+#start-new-project #for-input-form{
+    height: 150px;
+    margin-top: 10px;
+    
+}
+
+#for-input-form .for-center{
+    width: 70%;
+    margin: auto;
+    
+}
+#for-input-form .for-center input{
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 200px;
+    padding:15px ;
+    margin-left: 10px;
+    border: none;   
+}
+
+#start-new-project input[type='submit']{
+    background-color: rgb(255, 164, 59);
+    border: 3px solid rgb(255, 164, 59);
+}
+
+#for-input-form .for-center p{
+    margin-top: 7px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
 
 
                                     /* OUR CONTACTS */
 
 #our-contacts{
     width: 100%;
-    height: 380px;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -514,6 +552,38 @@
 }
 
 
+                                        /* FOOTER */
+
+#my-footer{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    
+}
+
+#my-footer #footer-grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    background-color: rgb(103, 142, 25);
+}
+
+.footer-columns{
+    height: 300px;
+    margin:auto;
+    text-align: left;
+    padding: 60px;
+
+}
+
+.footer-columns p{
+    padding-top: 5px;
+}
+.footer-columns h4{
+    color: white;
+}
+.footer-columns p i{
+    color: white;
+}
 
 
 
@@ -522,12 +592,9 @@
 
 
 
-
-
-
-
-
+/* FOR SPAN SECOND WORD */
 
 .second-word-color{
     color: rgb(104, 133, 18);
+    
 }
